@@ -1,0 +1,25 @@
+
+* For which of the three representations is the within-between ratio smallest?
+=> The Ratio of Texture Mean represenatation has the smallest ratio on within class and between class.
+
+* Does the answer to this question depend on the value of k that you use?
+=> Yes, it performed well when k=10. 
+
+* Does it depend on the number of keypoints you extract? (Try 500, 1000, 2000, 3000.)
+=> Yes, more the keypoints better the represenatation
+
+* Which of the three types of descriptors that you used is the best one? How can you tell?
+=> Texture Mean Representation has the lowest ratio between images of same class to images of different class, so it is the best descriptors.
+
+
+* Is this what you expected? Why or why not?
+=> I have expected Bag of words to be the best over other descriptors.
+Because the Bag of words with SIFT descriptor performs the best in texture represenatation.
+
+
+
+
+
+
+
+
